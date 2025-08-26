@@ -123,7 +123,7 @@ export default function Component() {
     <header className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/0">
       <div className="container flex h-36 items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center space-x-2 ">
+        <Link href="/" className="flex items-center space-x-2 -ml-4 md:-ml-8 ">
           <Image
             src="/creator-plus-logo-optimized.png"
             alt="Creator Plus Logo"
